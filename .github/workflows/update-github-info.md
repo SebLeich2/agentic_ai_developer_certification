@@ -6,9 +6,12 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+engine:
+  id: copilot
+  copilot-sdk: true
 tools:
-  edit: true
-  web-fetch: true
+  edit:
+  web-fetch:
 network:
   allowed:
     - github.blog
