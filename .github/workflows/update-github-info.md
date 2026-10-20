@@ -16,6 +16,7 @@ network:
   allowed:
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 safe-outputs:
   create-pull-request:
     max: 1
@@ -29,6 +30,7 @@ Read `notes/mona-notes.md` and the current `site/content/github-info.md`. Then u
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
+- https://awesome-copilot.github.com/workflows/
 
 Update only `site/content/github-info.md` with concise, practical GitHub guidance based on useful, current information from those official sources. Focus on helping developers learn GitHub faster, avoid duplicating existing themes, and cite the source URL for each new item. Do not invent details or add an item unless the source supports it.
 
